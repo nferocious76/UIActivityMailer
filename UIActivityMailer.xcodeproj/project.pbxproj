@@ -12,6 +12,9 @@
 		F545A47D1C03556C00720198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F545A47B1C03556C00720198 /* Main.storyboard */; };
 		F545A47F1C03556C00720198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F545A47E1C03556C00720198 /* Assets.xcassets */; };
 		F545A4821C03556C00720198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F545A4801C03556C00720198 /* LaunchScreen.storyboard */; };
+		F545A48A1C03569B00720198 /* UIActivityMailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545A4891C03569B00720198 /* UIActivityMailer.swift */; };
+		F545A48C1C03574900720198 /* UIActivityMailerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F545A48B1C03574900720198 /* UIActivityMailerItem.swift */; };
+		F545A48E1C0361CB00720198 /* UIActivityMailer.plist in Resources */ = {isa = PBXBuildFile; fileRef = F545A48D1C0361CB00720198 /* UIActivityMailer.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		F545A47E1C03556C00720198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F545A4811C03556C00720198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F545A4831C03556C00720198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F545A4891C03569B00720198 /* UIActivityMailer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIActivityMailer.swift; sourceTree = "<group>"; };
+		F545A48B1C03574900720198 /* UIActivityMailerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIActivityMailerItem.swift; sourceTree = "<group>"; };
+		F545A48D1C0361CB00720198 /* UIActivityMailer.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UIActivityMailer.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +62,23 @@
 			children = (
 				F545A4771C03556C00720198 /* AppDelegate.swift */,
 				F545A4791C03556C00720198 /* ViewController.swift */,
+				F545A48F1C0361D400720198 /* UIActivityMailer */,
 				F545A47B1C03556C00720198 /* Main.storyboard */,
 				F545A47E1C03556C00720198 /* Assets.xcassets */,
 				F545A4801C03556C00720198 /* LaunchScreen.storyboard */,
 				F545A4831C03556C00720198 /* Info.plist */,
 			);
 			path = UIActivityMailer;
+			sourceTree = "<group>";
+		};
+		F545A48F1C0361D400720198 /* UIActivityMailer */ = {
+			isa = PBXGroup;
+			children = (
+				F545A4891C03569B00720198 /* UIActivityMailer.swift */,
+				F545A48B1C03574900720198 /* UIActivityMailerItem.swift */,
+				F545A48D1C0361CB00720198 /* UIActivityMailer.plist */,
+			);
+			name = UIActivityMailer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F545A4821C03556C00720198 /* LaunchScreen.storyboard in Resources */,
+				F545A48E1C0361CB00720198 /* UIActivityMailer.plist in Resources */,
 				F545A47F1C03556C00720198 /* Assets.xcassets in Resources */,
 				F545A47D1C03556C00720198 /* Main.storyboard in Resources */,
 			);
@@ -135,6 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F545A48A1C03569B00720198 /* UIActivityMailer.swift in Sources */,
+				F545A48C1C03574900720198 /* UIActivityMailerItem.swift in Sources */,
 				F545A47A1C03556C00720198 /* ViewController.swift in Sources */,
 				F545A4781C03556C00720198 /* AppDelegate.swift in Sources */,
 			);
