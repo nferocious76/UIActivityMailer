@@ -57,7 +57,7 @@ private let UIActivityMailerTitle: String = {
  */
 private let UIActivityMailerIcon: UIImage? = {
     
-    if let iconName = UIActivityMailerInfo.objectForKey("UIActivityMailerType") as? String {
+    if let iconName = UIActivityMailerInfo.objectForKey("UIActivityMailerIcon") as? String {
         return UIImage(named: iconName)
     }
     
