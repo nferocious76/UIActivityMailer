@@ -1,4 +1,4 @@
-![UIActivityMailer](http://vector.me/files/images/1/9/196007/e_mail_icon.jpg)
+![UIActivityMailer](http://vector.me/files/images/1/9/196007/e_mail_icon.jpg?raw=true 'UIActivityMailer')
 
 ## UIActivityMailer
 
@@ -35,7 +35,7 @@ pod '****' - not yet supported
 
 Drag and drop UIActivityMailer folder. 
 
-![Usage](http://i.imgur.com/dcpQwfZ.png)
+![Usage](http://i.imgur.com/dcpQwfZ.png?raw=true 'Settings')
 
 Creating attachment data (Optional)
 
