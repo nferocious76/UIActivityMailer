@@ -78,7 +78,7 @@
 				F545A48B1C03574900720198 /* UIActivityMailerItem.swift */,
 				F545A48D1C0361CB00720198 /* UIActivityMailer.plist */,
 			);
-			name = UIActivityMailer;
+			path = UIActivityMailer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +306,7 @@
 				F545A4881C03556C00720198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
