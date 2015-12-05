@@ -35,7 +35,7 @@ pod '****' - not yet supported
 
 Drag and drop UIActivityMailer folder. 
 
-[Usage](http://i.imgur.com/dcpQwfZ.png)
+![Usage](http://i.imgur.com/dcpQwfZ.png)
 
 Creating attachment data (Optional)
 
