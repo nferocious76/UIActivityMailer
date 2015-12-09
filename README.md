@@ -18,8 +18,7 @@ Can be use with multiple UIActivityType option, just provide the other contents 
 Contributions are welcome!
 
 ### About
-
-Thanks to everyone who has contributed and helped make this a fun project and community.
+----
 
 ## Installation
 
